@@ -2,7 +2,7 @@ lenguage: python
 python:
     - "3.6"
 script:
-    -coverage run test_producto.py
+    -coverage run TPN5/test_producto.py
 
 install:
     -pip install -r requirements.txt

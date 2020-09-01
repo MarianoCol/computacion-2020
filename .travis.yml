@@ -5,7 +5,7 @@ script:
     -coverage run TPN5/test_producto.py
 
 install:
-    -pip install -r requirements.txt
+    -pip3 install -r requirements.txt
 
 after_success:
     - coveralls
